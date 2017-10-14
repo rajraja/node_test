@@ -1,0 +1,68 @@
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="nodeTest">
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Node Test</title>
+
+
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<style>
+			.container 					{ padding-top:50px; margin-top:70px;}
+			.margin_top_45 					{ margin-top:45px;}
+			.margin_top_20 					{ margin-top:20px;}
+
+		</style>
+
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+	<script src="controller.js"></script>
+
+</head>
+
+<body ng-controller="mainController">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 margin_top_20">
+				<label>Time</label>
+				<input class="form-control" type="number" ng-model="timeInMiliseconds" placeholder="Enter Time Ex:34554355">
+			</div>
+			<div class="col-md-4 margin_top_20 ">
+				<label>Time Zone</label>
+				<!-- <input class="form-control" type="text" ng-model="tz" placeholder="Enter Time Zone Ex: UM1, UP1"> -->
+				<select class="form-control" ng-model="timezone" ng-options="timezone.text for timezone in timezones" >
+					<option value="">Select Time Zone</option>
+				</select>
+			</div>
+			<div class="col-md-2">
+				<button  class="btn btn-info margin_top_45" type="button" ng-click="submit()">Submit</button>
+			</div>
+		</div>
+		<div class="margin_top_45" ng-if="timeData">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Time</th>
+						<th>Time Zone</th>
+					<tr>
+				</thead>
+				<tbody >
+					<tr>
+						<td>{{timeData.time}}</td>
+						<td>{{timeData.text}}</td>
+					<tr>
+				</tbody>
+			</table>
+			<!-- <label>Time:<label>
+			<div class="bg-aqua text-center"><strong> {{time}}</strong></div> -->
+		</div>
+		<div ng-if="error == true" class="margin_top_45 text-danger">
+			<strong>Please enter time and time zone correctly
+			</strong>
+		</div>
+	</div>
+	</body>
+</html>

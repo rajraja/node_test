@@ -1,0 +1,152 @@
+[
+  {
+    "tz": "UM12",
+    "offset": -12,
+    "text": "(UTC - 12:00) Enitwetok, Kwajalien"
+  },
+  {
+    "tz": "UM11",
+    "offset": -11,
+    "text": "(UTC - 11:00) Nome, Midway Island, Samoa"
+  },
+  {
+    "tz": "UM10",
+    "offset": -10,
+    "text": "(UTC - 10:00) Hawaii"
+  },
+  {
+    "tz": "UM9",
+    "offset": -9,
+    "text": "(UTC - 9:00) Alaska"
+  },
+  {
+    "tz": "UM8",
+    "offset": -8,
+    "text": "(UTC - 8:00) Pacific Time"
+  },
+  {
+    "tz": "UM7",
+    "offset": -7,
+    "text": "(UTC - 7:00) Mountain Time"
+  },
+  {
+    "tz": "UM6",
+    "offset": -6,
+    "text": "(UTC - 6:00) Central Time, Mexico City"
+  },
+  {
+    "tz": "UM5",
+    "offset": -5,
+    "text": "(UTC - 5:00) Eastern Time, Bogota, Lima, Quito"
+  },
+  {
+    "tz": "UM4",
+    "offset": -4,
+    "text": "(UTC - 4:00) Atlantic Time, Caracas, La Paz"
+  },
+  {
+    "tz": "UM25",
+    "offset": -3.5,
+    "text": "(UTC - 3:30) Newfoundland"
+  },
+  {
+    "tz": "UM3",
+    "offset": -3,
+    "text": "(UTC - 3:00) Brazil, Buenos Aires, Georgetown, Falkland Is."
+  },
+  {
+    "tz": "UM2",
+    "offset": -2,
+    "text": "(UTC - 2:00) Mid-Atlantic, Ascention Is., St Helena"
+  },
+  {
+    "tz": "UM1",
+    "offset": -1,
+    "text": "(UTC - 1:00) Azores, Cape Verde Islands"
+  },
+  {
+    "tz": "UTC",
+    "offset": -0,
+    "text": "(UTC) Casablanca, Dublin, Edinburgh, London, Lisbon, Monrovia"
+  },
+  {
+    "tz": "UP1",
+    "offset": 1,
+    "text": "(UTC + 1:00) Berlin, Brussels, Copenhagen, Madrid, Paris, Rome"
+  },
+  {
+    "tz": "UP2",
+    "offset": 2,
+    "text": "(UTC + 2:00) Kaliningrad, South Africa, Warsaw"
+  },
+  {
+    "tz": "UP3",
+    "offset": 3,
+    "text": "(UTC + 3:00) Baghdad, Riyadh, Moscow, Nairobi"
+  },
+  {
+    "tz": "UP25",
+    "offset": 3.5,
+    "text": "UTC + 3:30) Tehran"
+  },
+  {
+    "tz": "UP4",
+    "offset": 4,
+    "text": "(UTC + 4:00) Adu Dhabi, Baku, Muscat, Tbilisi"
+  },
+  {
+    "tz": "UP35",
+    "offset": 4.5,
+    "text": "(UTC + 4:30) Kabul"
+  },
+  {
+    "tz": "UP5",
+    "offset": 5,
+    "text": "(UTC + 5:00) Islamabad, Karachi, Tashkent"
+  },
+  {
+    "tz": "UP45",
+    "offset": 5.5,
+    "text": "(UTC + 5:30) Bombay, Calcutta, Madras, New Delhi"
+  },
+  {
+    "tz": "UP6",
+    "offset": 6,
+    "text": "(UTC + 6:00) Almaty, Colomba, Dhaka"
+  },
+  {
+    "tz": "UP7",
+    "offset": 7,
+    "text": "(UTC + 7:00) Bangkok, Hanoi, Jakarta"
+  },
+  {
+    "tz": "UP8",
+    "offset": 8,
+    "text": "(UTC + 8:00) Beijing, Hong Kong, Perth, Singapore, Taipei"
+  },
+  {
+    "tz": "UP9",
+    "offset": 9,
+    "text": "(UTC + 9:00) Osaka, Sapporo, Seoul, Tokyo, Yakutsk"
+  },
+  {
+    "tz": "UP85",
+    "offset": 9.5,
+    "text": "(UTC + 9:30) Adelaide, Darwin"
+  },
+  {
+    "tz": "UP10",
+    "offset": 10,
+    "text": "(UTC + 10:00) Melbourne, Papua New Guinea, Sydney, Vladivostok"
+  },
+  {
+    "tz": "UP11",
+    "offset": 11,
+    "text": "(UTC + 11:00) Magadan, New Caledonia, Solomon Islands"
+  },
+  {
+    "tz": "UP12",
+    "offset": 12,
+    "text": "(UTC + 12:00) Auckland, Wellington, Fiji, Marshall Island"
+  }
+]
